@@ -1,0 +1,57 @@
+/*
+
+- Font sizes (px)
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 0.8125rem;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__box--article {
+  width: 30%;
+  padding: 1.5rem;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.main__box--user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.main__box--first {
+  background-color: #7541c8;
+}
+.main__box--img {
+  height: 2rem;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=styles.css.map */

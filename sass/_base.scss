@@ -1,0 +1,68 @@
+/*
+
+- Font sizes (px)
+// 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+// SASS VARIABLES
+// PRIMARY COLORS
+$primary-purple-50: #eee5ff;
+$primary-purple-300: #c4a2f6;
+$primary-purple-500: #7541c8;
+
+// NEUTRAL COLORS
+$neutral-white: #fff;
+$neutral-grey-100: #e7eaee;
+$neutral-grey-200: #cfcfcf;
+$neutral-grey-400: #676d7e;
+$neutral-grey-500: #48556a;
+$neutral-dark-blue: #19212e;
+$neutral-black: #121212;
+
+// FONT FAMILY
+$font-family: "Barlow Semi Condensed", sans-serif;
+
+// DEFAULT FONT SIZE
+$font-size: 0.8125rem; // 13px == 1rem; 13px / 16px == 0.8125 * 16px == 13px
+
+// FONT WEIGHT
+$font-weight-500: 500;
+$font-weight-600: 600;
+
+// RESPONSIVE BREAKPOINTS
+
+// UNIVERSAL STYLES
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: $font-size;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  font-family: $font-family;
+  font-weight: $font-weight-500;
+  //   color: $neutral-white;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span {
+}

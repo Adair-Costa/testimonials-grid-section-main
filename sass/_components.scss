@@ -1,0 +1,30 @@
+.main__box {
+  // CARD STYLES
+  &--article {
+    width: 30%;
+    padding: 1.5rem;
+    border-radius: 8px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  // USERNAME AND DEGREE
+  &--user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  // FIRST ARTICLE
+  &--first {
+    background-color: $primary-purple-500;
+  }
+
+  // AVATAR
+  &--img {
+    height: 2rem;
+    border-radius: 50%;
+  }
+}
