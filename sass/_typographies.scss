@@ -1,0 +1,22 @@
+.main__box {
+  // USERNAME
+  &--name {
+    font-size: 0.9rem;
+  }
+
+  // DEGREE
+  &--degree {
+    font-size: 0.77rem;
+  }
+
+  //  PARAGRAPH
+  &--text {
+    font-size: 1.2rem;
+  }
+
+  // SUB PARAGRAPH
+  &--subtext {
+    font-size: 0.8rem;
+    line-height: 1.4;
+  }
+}
