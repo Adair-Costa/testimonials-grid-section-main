@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Adair-Costa/testimonials-grid-section-main.git)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution URL](https://github.com/Adair-Costa/testimonials-grid-section-main.git)
+- Live Site URL: [Site URL](https://testimonials-grid-section-main-two-sigma.vercel.app/)
 
 ## My process
 
