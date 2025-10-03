@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: repeat(4, 15rem);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1.5rem;
+  // row-gap: 1.5rem;
+  column-gap: 1.5rem;
 
   // CARD STYLES
   &--article {
@@ -51,6 +52,7 @@
   // SECOND ARTICLE
   &--second {
     background-color: $neutral-grey-500;
+
     grid-column: 3 / 4;
     grid-row: 1 / 2;
   }
@@ -58,6 +60,8 @@
   // THIRD ARTICLE
   &--third {
     background-color: $neutral-white;
+    margin-top: 1.5rem;
+
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   }
@@ -65,6 +69,8 @@
   // FOURTH ARTICLE
   &--fourth {
     background-color: $neutral-dark-blue;
+    margin-top: 1.5rem;
+
     grid-column: 2 / 4;
     grid-row: 2 / 4;
 
@@ -76,6 +82,7 @@
   // FIFTH ARTICLE
   &--fifth {
     background-color: $neutral-white;
+
     grid-column: 4 / 5;
     grid-row: 1 / -1;
   }

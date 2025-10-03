@@ -37,7 +37,7 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 15rem);
   grid-template-rows: repeat(2, 1fr);
-  gap: 1.5rem;
+  column-gap: 1.5rem;
 }
 .main__box--article {
   padding: 1.5rem;
@@ -77,11 +77,13 @@ body {
 }
 .main__box--third {
   background-color: #fff;
+  margin-top: 1.5rem;
   grid-column: 1/2;
   grid-row: 2/3;
 }
 .main__box--fourth {
   background-color: #19212e;
+  margin-top: 1.5rem;
   grid-column: 2/4;
   grid-row: 2/4;
 }
